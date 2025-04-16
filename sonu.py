@@ -5,7 +5,7 @@ import seaborn as sns
 # Set style
 sns.set(style="whitegrid")
 
-# ✅ Load dataset with encoding fix
+#  Load dataset with encoding fix
 df_fatalities = pd.read_csv("C:\\Users\\sonuk\\OneDrive\\Documents\\Desktop\\Deaths_by_Police_US.csv", encoding='ISO-8859-1')
 
 print("\n Dataset Overview:")
